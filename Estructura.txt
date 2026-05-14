@@ -1,0 +1,31 @@
+LectMoCity/
+└── src/
+    └── lectmocity/
+        ├── controlador/
+        │   ├── LibroController.java
+        │   ├── UsuarioController.java
+        │   └── PrestamoController.java
+        ├── modelo/
+        │   ├── Libro.java
+        │   ├── Usuario.java
+        │   ├── Prestamo.java
+        │   ├── EstadoLibro.java
+        │   ├── EstadoDisponible.java
+        │   ├── EstadoPrestado.java
+        │   └── EstadoReservado.java
+        ├── patrones/
+        │   ├── ConexionBD.java
+        │   ├── GestorPrestamos.java
+        │   ├── LibroDigital.java
+        │   ├── AdaptadorLibroDigital.java
+        │   ├── ObservadorInventario.java
+        │   ├── InventarioObservable.java
+        │   ├── CalculoFechaDevolucion.java
+        │   ├── CalculoFechaEstudiante.java
+        │   ├── CalculoFechaDocente.java
+        │   ├── ServicioBiblioteca.java
+        │   ├── ServicioBibliotecaReal.java
+        │   └── ControlAccesoAdministrador.java
+        ├── vista/
+        │   └── VentanaPrincipal.java
+        ├── Main.java
